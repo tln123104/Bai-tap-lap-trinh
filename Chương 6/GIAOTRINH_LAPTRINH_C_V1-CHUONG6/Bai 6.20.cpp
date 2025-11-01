@@ -1,5 +1,9 @@
+/* Bài 6.20: Nhập vào một dãy n số nguyên a1, a2,..., an (n ≤ 10^4, |ai| ≤ 10^12).
+Viết chương trình sắp xếp lại dãy sao cho các số chẵn xuống cuối dãy và các số chẵn được sắp xếp tăng dần.
+Xuất dãy sau khi sắp xếp ra màn hình. */
+
 /*
-Ý tưởng: Việc sắp xếp lại dãy được chhia thành hai công đoạn
+Ý tưởng: Việc sắp xếp lại dãy được chia thành hai công đoạn
 1. Sắp xếp các phần tử chia hết cho 3 xuống cuối mảng
 2. Xem xét các phần tử chia hết cho 3 không đúng
 trật tự tăng dần thì hoán đổi giá trị của chúng cho nhau.
@@ -33,3 +37,4 @@ int main ()
         cout << a[i] << ' ';
     return 0;
 }
+
