@@ -1,5 +1,9 @@
-/*
-Ý tưởng:
+/* Bài 6.21: Huy mở cửa hàng bán quần áo, anh ta có 1 đống tất mà cần phải ghép đôi theo màu để bán.
+Mỗi màu có thể được biểu diễn bởi 1 số nguyên dương.
+Viết chương trình xác định giúp Huy xem anh ta có thể có tối đa bao nhiêu đôi tất? Biết:
+có không quá 10^7 loại tất và số lượng mỗi chiếc tất không vượt quá 1000. */
+
+/* Ý tưởng:
 -	Sử dụng một mảng d không quá 100 phần tử
     (vì số hiệu màu tất có giá trị không quá 100),
     mỗi phần tử của nó có chỉ số là số hiệu màu của chiếc tất,
@@ -31,6 +35,7 @@ int main ()
         s += d[i] / 2;
     cout << s;
 }
+
 
 
 
