@@ -1,7 +1,5 @@
-// Viết chương trình cho phép nhập số ngày công trong tháng của từng công nhân trong xưởng may.
-// Sau đó sắp xếp các ngày công theo chiều giảm dần và đưa ra màn hình. Biết sô công nhân trong xưởng không quá 100 người.
-
-
+/* Bài 6.10: Viết chương trình cho phép nhập số ngày công trong tháng của từng công nhân trong xưởng may.
+Sau đó sắp xếp các ngày công theo chiều giảm dần và đưa ra màn hình. Biết sô công nhân trong xưởng không quá 100 người. */
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -31,4 +29,5 @@ int main ()
         cout << a[i] << ' ';
     return 0;
 }
+
 
