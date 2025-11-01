@@ -1,4 +1,4 @@
-/* Dãy số a được xây dựng như sau:
+/* Bài 6.13: Dãy số a được xây dựng như sau:
 A[0] = 0
 A[1] = 1
 A[2i] = A[i]
@@ -48,4 +48,5 @@ int main()
     }
     return 0;
 }
+
 
