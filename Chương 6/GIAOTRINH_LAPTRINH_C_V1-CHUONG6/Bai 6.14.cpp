@@ -1,3 +1,10 @@
+/* Cho một dãy số thực a1, a2,..., an tăng ngặt (không có phần tử trùng nhau) (n ≤ 10^5, lai| ≤ 10^9) và một số thực x.
+Hãy kiểm tra xem x đã có trong dãy chưa? Nếu x đã có trong dãy thì đưa ra vị trí của nó trong dãy nếu x
+không có trong dãy thì chèn x vào dãy sao cho không làm mất tính tăng dần của dãy và hiển thị dãy sau khi chèn.
+Input: - Dòng 1 gồm 2 số n và x
+       - Dòng 2 gồm n số thực của dãy a
+Output: Một số nguyên là vị trí xuất hiện của x trong dãy a hoặc dãy số sau khi chèn x vào dãy a. */
+
 /*
 Ý tưởng:
 1. Kiểm tra phần tử đầu tiên của dãy:
@@ -55,4 +62,5 @@ int main ()
      for(int i = 1; i <= n; i++)
         cout << a[i] << ' ';
 }
+
 
