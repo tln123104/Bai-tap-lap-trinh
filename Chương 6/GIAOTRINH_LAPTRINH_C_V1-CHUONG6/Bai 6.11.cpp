@@ -1,3 +1,13 @@
+/*Viết chương trình nhập một số nguyên n và một dãy n số nguyên dương a1, a2,..., an (n ≤ 105 , ai ≤ 10°).
+Đặt: dist(a) = max(a) - min(a), trong đó: max(a) là
+giá trị lớn nhất của dãy số a, min(a) là giá trị nhỏ nhất của dãy số a.
+Ứng với mỗi phần tử ai, hãy xem: cần tăng/giảm bao nhiêu đơn vị để ai = dist(a).
+- Nếu phần tử đó cần tăng, ghi ra dấu cộng trước giá trị cần tăng.
+- Nếu phần tử đó cần giảm, ghi ra dấu trừ trước giá trị cần giảm.
+- Nếu phần tử đó không cần tăng hay giảm gì, ghi ra số 0.
+- Mỗi số cách nhau 1 kí tự trống */
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -39,3 +49,4 @@ int main()
     }
     return 0;
 }
+
