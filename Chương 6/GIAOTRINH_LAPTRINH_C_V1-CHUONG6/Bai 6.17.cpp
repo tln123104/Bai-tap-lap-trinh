@@ -1,3 +1,8 @@
+/* Bài 6.17: Cho mảng a gồm n phần tử nguyên a1, a2,..., an, (n ≤ 10^6, ai ≤ 10^7).
+Viết chương trình đếm số lượng những phần tử thủ lĩnh của mảng,
+biết rằng phần tử thủ lĩnh là phần tử lớn hơn mọi phần tử nằm bên phải nó trong mảng.
+Ví dụ: */
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -21,3 +26,4 @@ int main ()
     cout << d;
     return 0;
 }
+
