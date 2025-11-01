@@ -1,4 +1,4 @@
-/*Để tính nhiệt độ trung bình của một giai đoạn người ta tiến hành ghi chép lại 
+/* Bài 6.12: Để tính nhiệt độ trung bình của một giai đoạn người ta tiến hành ghi chép lại 
 nhiệt độ của n ngày liên tiếp vào 1 thời điểm nhất định trong ngày (1 ≤ n ≤ 1000).
 Viết chương trình nhập vào nhiệt độ của n ngày và tính nhiệt độ trung bình của n ngày đó, kết quả lấy 2 chữ số thập phân. */
 
@@ -22,4 +22,5 @@ int main()
     cout << setprecision(2) << fixed << s/n;
     return 0;
 }
+
 
