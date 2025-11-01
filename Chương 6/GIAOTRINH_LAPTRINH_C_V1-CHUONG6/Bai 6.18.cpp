@@ -1,3 +1,7 @@
+/* Bài 6.18: Nhập vào một dãy n số nguyên dương a1, a2,..., an, (n ≤ 100, ai ≤ 10^12).
+Viết chương trình đổi chỗ các phần tử nhỏ nhất và lớn nhất cho nhau và in ra dãy sau khi đổi chỗ.
+Lưu ý: trong dãy có thể có nhiều phần tử cùng lớn nhất hoặc cùng nhỏ nhất.
+Ví dụ: */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -38,3 +42,4 @@ int main ()
         cout << a[i] << ' ';
     return 0;
 }
+
