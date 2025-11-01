@@ -1,6 +1,11 @@
+/* Bài 6.19: Nhập vào một dãy n số nguyên dương ai, 22,..., an, (n ≤ 10^6, ai ≤ 10^7) và một số x.
+Viết chương trình kiểm tra x có trong dãy a không?
+Nếu x không có trong dãy thì đưa ra thông báo NO, nếu x có trong dãy thì xóa tất cả các phần tử trong dãy bằng x và in ra dãy sau khi xóa.
+Input: - Dòng 1 gồm 2 số n và x, dòng 2 gồm n số thực của dãy a
+Output: Dãy a sau khi xoa giá trị x hoặc NO. */
+
 /*
-// Cách 1: Không xoá các phần tử có giá trị == x,
-// mà chỉ in ra các phần tử không bằng x
+Cách 1: Không xoá các phần tử có giá trị == x, mà chỉ in ra các phần tử không bằng x
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -71,4 +76,5 @@ int main ()
         cout << a[i] << " ";
     return 0;
 }
+
 
