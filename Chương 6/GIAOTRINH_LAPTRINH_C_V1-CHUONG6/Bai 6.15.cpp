@@ -1,3 +1,5 @@
+/* Viết chương trình đọc một số nguyên dương và hiển thị nó ở dạng nhị phân. */
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -38,3 +40,4 @@ int main()
     return 0;
 }
 */
+
