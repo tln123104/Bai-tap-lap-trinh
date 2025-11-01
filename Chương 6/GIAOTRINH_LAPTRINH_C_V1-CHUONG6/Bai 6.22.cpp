@@ -1,5 +1,10 @@
-/*
-Ý tưởng:
+/* Bài 6.22: Camera đặt cạnh trạm thu phí đường cao tốc ghi nhận nhiều thông tin, trong đó có mã số nhận dạng loại ô tô đi qua.
+Mỗi loại ô tô được mã hóa thành một số nguyên dương.
+Cho dãy số, mỗi số mã hoá về loại của một ô tô đi qua trạm thu phí.
+Viết chương trình nhập dãy số mã hoá xe và đưa ra số loại xe khác nhau đã được nhận dạng.
+Biết: số lượng xe không quá 10^6, mỗi mã số xe là một số nguyên không vượt quá 1000. */
+
+/* Ý tưởng:
 -	Sử dụng một mảng d để đánh dấu loại xe,
     trong đó: chỉ số của mảng thể hiện mã xe.
 -	Đầu tiên tất cả các phần tử mảng (các mã xe)
@@ -31,5 +36,6 @@ int main ()
     cout << s;
     return 0;
 }
+
 
 
